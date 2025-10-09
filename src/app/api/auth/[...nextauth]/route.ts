@@ -13,7 +13,8 @@ const handler = NextAuth({
           return {
             id: "1",
             name: credentials.username,
-            email: `${credentials.username}`,
+            email: `${credentials.username}@gmail.com`,
+            image: `https://i.pravatar.cc/150?u=${credentials.username}`,
           }
         }
         return null
