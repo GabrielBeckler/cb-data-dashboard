@@ -8,12 +8,12 @@ const Login = () => {
     const { data: session } = useSession();
     if (session) {
         return <> 
-            <Button varant={'contained'} color={'error'} onClick={() => signOut()}>Sign out</Button>
+            <Button variant={'contained'} color={'error'} onClick={() => signOut()}>Sign out</Button>
         </>
     }
     return <>
         <h2>Please Login</h2> <br />
-        <Button varant={'contained'} color={'sucess'} onClick={ () => signIn()}> Sign In</Button>
+        <Button variant={'contained'} color={'success'} onClick={ () => signIn()}> Sign In</Button>
     </>
 }
 

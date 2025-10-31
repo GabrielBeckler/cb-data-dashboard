@@ -60,7 +60,7 @@ const Header = () =>{
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Gbeck
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
