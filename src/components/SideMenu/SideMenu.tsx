@@ -2,7 +2,7 @@ import React from "react";
 const SideMenu = () => {  
     return (
         <ul>
-            <li>Data</li>
+            <li>Analytics</li>
             <li>Profile</li>
             <li>Settings</li>
         </ul>
